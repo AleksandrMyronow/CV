@@ -61,19 +61,11 @@ gulp.task('pug', () => {
 gulp.task('sass', function() {
     "use strict";
     return gulp.src(path.sass.entry)
-<<<<<<< HEAD
-    // .pipe(sourcemaps.init())
-    //.pipe(sassGlob())
-=======
-        // .pipe(sourcemaps.init())
-        //.pipe(sassGlob())
->>>>>>> c16d3cc1e57a5fa540dd2dac841a1aa345a0902a
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['> 1%'],
             cascade: false
         }))
-        // .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.sass.dist));
 });
 
