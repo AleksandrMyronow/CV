@@ -15,19 +15,19 @@ const DIST_DIR = './dist/';
 const path = {
     sass : {
         entry : SRC_DIR + 'styles/main.scss',
-        src  : SRC_DIR + 'styles/**/*.scss',
-        dist : DIST_DIR + 'css'
+        src   : SRC_DIR + 'styles/**/*.scss',
+        dist  : DIST_DIR + 'css'
     },
-    pug: {
-        entry: SRC_DIR + 'pug/index.pug',
-        src  : SRC_DIR + 'sections/**/*.pug',
-        dist : DIST_DIR + 'html'
+    pug : {
+        entry : SRC_DIR + 'pug/index.pug',
+        src   : SRC_DIR + 'sections/**/*.pug',
+        dist  : DIST_DIR + 'html'
     },
-    sprite: {
-        src  : SRC_DIR + 'img/icons/*.png',
-        distImg : DIST_DIR + 'img',
+    sprite : {
+        src        : SRC_DIR + 'img/icons/*.png',
+        distImg    : DIST_DIR + 'img',
         imgLocation: './img/sprite.png',
-        distfile: SRC_DIR + 'style/sprite'
+        distfile   : SRC_DIR + 'style/sprite'
     }
 };
 
