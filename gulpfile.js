@@ -9,11 +9,11 @@ const spritesmith = require('gulp.spritesmith');
 
 
 //paths
-const SRC_DIR  = 'src/';
-const DIST_DIR = 'dist/';
+var SRC_DIR  = './src/';
+var DIST_DIR = './dist/';
 
-const path = {
-    sass: {
+var path = {
+    sass : {
         entry: SRC_DIR + 'styles/main.scss',
         src  : SRC_DIR + 'styles/**/*.scss',
         dist : DIST_DIR + 'css'
