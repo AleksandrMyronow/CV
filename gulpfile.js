@@ -3,7 +3,7 @@ const gulp     = require('gulp');
 const pug      = require('gulp-pug');
 const sass     = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
-const sourcemaps = require('gulp-source-maps');
+// const sourcemaps = require('gulp-source-maps');
 const autoprefixer = require('gulp-autoprefixer');
 const spritesmith = require('gulp.spritesmith');
 
@@ -44,32 +44,31 @@ gulp.task('sprite', () => {
         padding: 70
     }));
 
-
-    gulp.task('pug', () => {
-        "use strict";
-        return gulp.src(path.pug.entry)
-            .pipe(pug({
-                pretty: '\t'
-            }))
-            .pipe(gulp.dest(path.pug.dist))
-    });
-
     spriteData.img.pipe(gulp.dest(path.sprite.distImg));
     spriteData.img.pipe(gulp.dest(path.sprite.distFile));
 
 });
 
+gulp.task('pug', () => {
+    "use strict";
+    return gulp.src(path.pug.entry)
+        .pipe(pug({
+            pretty: '\t'
+        }))
+        .pipe(gulp.dest(path.pug.dist))
+});
+
 gulp.task('sass', function() {
     "use strict";
     return gulp.src(path.sass.entry)
-        .pipe(sourcemaps.init())
+        // .pipe(sourcemaps.init())
         .pipe(sassGlob())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['> 1%'],
             cascade: false
         }))
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.sass.dist))
 });
 
