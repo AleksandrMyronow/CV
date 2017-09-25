@@ -9,24 +9,24 @@ const spritesmith = require('gulp.spritesmith');
 
 
 //paths
-const SRC_DIR  = 'src/';
-const DIST_DIR = 'dist/';
+const SRC_DIR  = './src/';
+const DIST_DIR = './dist/';
 
 const path = {
-    sass: {
-        entry: SRC_DIR + 'styles/main.scss',
+    sass : {
+        entry : SRC_DIR + 'styles/main.scss',
         src  : SRC_DIR + 'styles/**/*.scss',
         dist : DIST_DIR + 'css'
     },
     pug: {
         entry: SRC_DIR + 'pug/index.pug',
         src  : SRC_DIR + 'sections/**/*.pug',
-        dist : DIST_DIR + '../'
+        dist : DIST_DIR + 'html'
     },
     sprite: {
         src  : SRC_DIR + 'img/icons/*.png',
         distImg : DIST_DIR + 'img',
-        imgLocation: '../img/sprite.png',
+        imgLocation: './img/sprite.png',
         distfile: SRC_DIR + 'style/sprite'
     }
 };
@@ -62,14 +62,14 @@ gulp.task('sass', function() {
     "use strict";
     return gulp.src(path.sass.entry)
         // .pipe(sourcemaps.init())
-        .pipe(sassGlob())
+        //.pipe(sassGlob())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['> 1%'],
             cascade: false
         }))
         // .pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.sass.dist))
+        .pipe(gulp.dest(path.sass.dist));
 });
 
 gulp.task('sprite', function () {
@@ -83,8 +83,8 @@ gulp.task('sprite', function () {
 //watch
 gulp.task('watch', () => {
     "use strict";
-    gulp.watch('src/pug/.pug', ['pug']);
-    gulp.watch(path.sass.src, ['sass'])
+    gulp.watch('src/pug/*.pug', ['pug']);
+    gulp.watch(path.sass.src, ['sass']);
 });
 
 //default
