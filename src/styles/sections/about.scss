@@ -1,0 +1,46 @@
+.container_2 {
+  width: 100%;
+  background-color: $mainColor;
+  height: 240px;
+  margin-left: $main-margin-left;
+}
+
+.logo {
+  background-color: $mainText;
+  color: $mainColor;
+  display: inline-block;
+  width: 15%;
+  padding: 10px;
+  -webkit-transform: skew(-30deg);
+  border-radius: 2px;
+  //-moz-transform: skew(30deg);
+  //-o-transform: skew(30deg);
+}
+
+hr.line {
+  border: none;
+  background-color: $second-color;
+  height: 4px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 62%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.left-footer {
+  display: block;
+  width: 20%;
+  font-size: 10px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text .text{
+  width: 40%;
+  display: inline-block;
+}
