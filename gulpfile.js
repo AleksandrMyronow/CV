@@ -5,8 +5,8 @@ const sass     = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 
 //paths
-const SRC_DIR  = './src/';
-const DIST_DIR = '../dist/';
+const SRC_DIR  = 'src/';
+const DIST_DIR = 'dist/';
 
 const path = {
     sass: {
@@ -17,7 +17,7 @@ const path = {
     pug: {
         entry: SRC_DIR + 'pug/index.pug',
         src  : SRC_DIR + 'sections/**/*.pug',
-        dist : DIST_DIR + 'html'
+        dist : DIST_DIR + '../'
     }
 };
 
