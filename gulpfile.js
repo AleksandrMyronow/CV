@@ -1,7 +1,8 @@
 // modules
-const gulp = require('gulp');
-const pug  = require('gulp-pug');
-const sass = require('gulp-sass');
+const gulp     = require('gulp');
+const pug      = require('gulp-pug');
+const sass     = require('gulp-sass');
+const sassGlob = require('gulp-sass-glob');
 
 //paths
 const SRC_DIR  = './src/';
@@ -33,6 +34,7 @@ gulp.task('pug', () => {
 gulp.task('sass', function() {
     "use strict";
     return gulp.src(path.sass.entry)
+        .pipe(sassGlob())
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(path.sass.dist))
 });
