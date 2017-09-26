@@ -7,11 +7,12 @@ html(lang='en')
         meta(name='viewport', content='width=device-width')
         link(href='../css/main.css', rel='stylesheet')
         title Aleksandr
-
-include ../sections/_mixins
-include ../sections/header
-include ../sections/about
-include ../sections/skills
-include ../sections/experience
-include ../sections/education
+    body
+        .wrapper
+            include ../sections/_mixins
+            include ../sections/header
+            include ../sections/about
+            include ../sections/skills
+            include ../sections/experience
+            include ../sections/education
 
