@@ -81,8 +81,31 @@ hr.line {
 .left {
   font-weight: bold; }
 
+.twitter, .facebook, .google, .git, .skype {
+  width: 5%; }
+
 .about-text {
-  width: 40%;
+  width: 50%;
   display: inline-block;
   margin-left: 2%;
   padding: 1%; }
+  .about-text .text {
+    width: 100%; }
+
+.social a {
+  float: left;
+  display: inline-block;
+  padding: 4px 0 4px 25px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #444;
+  width: 25px;
+  height: 25px;
+  background-size: 20px auto; }
+
+.photo img {
+  display: inline-block;
+  width: 30%;
+  margin: 0 15px;
+  float: left;
+  padding-left: 23px; }
