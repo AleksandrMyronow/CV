@@ -1,0 +1,4 @@
+<svg class="circles" viewBox="0 0 110 110">
+    <circle r="45" cx="50%" cy="50%" class="circle__first"/>
+    <circle r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)" class="circle__second circle-workflow"/>
+</svg>

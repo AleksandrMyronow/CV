@@ -44,10 +44,10 @@ header {
   text-decoration: none;
   text-transform: uppercase; }
 
-.container_2 {
+.about {
   width: 100%;
   background-color: white;
-  height: 240px;
+  height: 400px;
   margin-left: 15%; }
 
 .logo {
@@ -59,15 +59,23 @@ header {
   -webkit-transform: skew(-30deg);
   border-radius: 2px; }
 
-hr.line {
+hr.gorizontalLine {
   border: none;
   background-color: #3699db;
-  height: 4px;
-  border-radius: 10px;
   display: inline-block;
-  width: 50%;
+  border-radius: 10px;
   margin-left: 5%;
-  margin-top: 3%; }
+  margin-top: 3%;
+  height: 4px;
+  width: 50%; }
+
+hr.verticalLine {
+  border: none;
+  background-color: #3699db;
+  display: inline-block;
+  border-radius: 10px;
+  height: 150px;
+  width: 4px; }
 
 .left-footer {
   width: 25%;
@@ -105,9 +113,43 @@ hr.line {
 
 .photo img {
   display: inline-block;
-  width: 30%;
-  margin: 0 15px;
+  width: 150px;
+  height: 150px;
   float: left;
   padding-left: 23px; }
+
+.circles {
+  fill: none;
+  stroke-width: 15; }
+
+.circle__first {
+  stroke: #dcdfd5; }
+
+.circle__second {
+  stroke: #1bb696;
+  stroke-dasharray: .0010 282.6;
+  transition: all 1s; }
+
+.item {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid red; }
+
+.include {
+  position: absolute; }
+
+.circle-html {
+  stroke-dasharray: 112.0 282.6; }
+
+.circle-php {
+  stroke-dasharray: 112.0 282.6; }
+
+.circle-js {
+  stroke-dasharray: 112.0 282.6; }
+
+.circle-workflow {
+  stroke-dasharray: 112.0 282.6; }
 
 /*# sourceMappingURL=main.css.map */

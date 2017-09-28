@@ -1,0 +1,42 @@
+.circles {
+  fill: none;
+  stroke-width: 15;
+}
+
+.circle__first {
+  stroke: #dcdfd5;
+}
+
+.circle__second {
+  stroke: #1bb696;
+  stroke-dasharray: .0010 282.6;
+  transition: all 1s;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid red;
+}
+
+.include {
+  position: absolute;
+}
+
+.circle-html {
+  stroke-dasharray: 112.0 282.6;
+}
+
+.circle-php {
+  stroke-dasharray: 112.0 282.6;
+}
+
+.circle-js {
+  stroke-dasharray: 112.0 282.6;
+}
+
+.circle-workflow {
+  stroke-dasharray: 112.0 282.6;
+}

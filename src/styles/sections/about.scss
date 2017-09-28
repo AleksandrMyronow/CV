@@ -1,7 +1,7 @@
-.container_2 {
+.about {
   width: 100%;
   background-color: $mainColor;
-  height: 240px;
+  height: 400px;
   margin-left: $main-margin-left;
 }
 
@@ -17,16 +17,26 @@
   //-o-transform: skew(30deg);
 }
 
-hr.line {
+hr.gorizontalLine {
   border: none;
   background-color: $second-color;
-  height: 4px;
-  border-radius: 10px;
   display: inline-block;
-  width: 50%;
+  border-radius: 10px;
   margin-left: 5%;
   margin-top: 3%;
+  height: 4px;
+  width: 50%;
 }
+
+hr.verticalLine {
+  border: none;
+  background-color: $second-color;
+  display: inline-block;
+  border-radius: 10px;
+  height: 150px;
+  width: 4px;
+}
+
 
 .left-footer {
   width: 25%;
@@ -73,8 +83,8 @@ hr.line {
 
 .photo img{
   display: inline-block;
-  width: 30%;
-  margin: 0 15px;
+  width: 150px;
+  height: 150px;
   float: left;
   padding-left: 23px;
 
