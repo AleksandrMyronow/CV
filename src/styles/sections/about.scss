@@ -1,92 +1,88 @@
 .about {
-  width: 100%;
+  width: 80%;
   background-color: $mainColor;
   height: 400px;
-  margin-left: $main-margin-left;
+  padding: $mainPadding;
 }
 
-.logo {
+.squere {
+  position: relative;
+  height: 50px;
+}
+
+.squere-text {
+  display: inline-block;
+  z-index: 10;
+  color: white;
+  margin-left: 60px;
+  position: relative;
+  bottom: 8px;
+}
+
+.title-bg {
   background-color: $mainText;
   color: $mainColor;
-  display: inline-block;
+  height: 20px;
   width: 25%;
   padding: 10px;
+  position: absolute;
   -webkit-transform: skew(-30deg);
   border-radius: 2px;
-  //-moz-transform: skew(30deg);
-  //-o-transform: skew(30deg);
+
 }
 
 hr.gorizontalLine {
   border: none;
   background-color: $second-color;
   display: inline-block;
+  position: relative;
   border-radius: 10px;
-  margin-left: 5%;
-  margin-top: 3%;
   height: 4px;
-  width: 50%;
+  width: 80%;
+  left: 25%;
+  float: right;
 }
 
-hr.verticalLine {
-  border: none;
-  background-color: $second-color;
-  display: inline-block;
-  border-radius: 10px;
-  height: 150px;
-  width: 4px;
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
+.personal-info {
+  width: 30%;
+}
 
-.left-footer {
-  width: 25%;
-  font-size: 15px;
-  padding: 7px 2px;
-  display: inline-block;
+.photo {
+  width: 20%;
+  img{
+    width: 100%;
+  }
+}
+
+.about-text {
+  width: 45%;
 }
 
 .right {
   float: right;
+  display: inline-block;
 }
 
 .left{
   font-weight:bold;
-}
-
-.twitter, .facebook, .google, .git, .skype {
-  width: 5%;
-}
-
-.about-text {
-  width: 50%;
   display: inline-block;
-  margin-left: 2%;
-  padding: 1%;
 
-    .text {
-      width: 100%;
-    }
 }
 
-
-.social a {
-  float: left;
-  display: inline-block;
-  padding: 4px 0 4px 25px;
-  margin-right: 5px;
-  text-decoration: none;
-  color: #444;
-  width: 25px;
-  height: 25px;
-  background-size: 20px auto;
-}
-
-.photo img{
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  float: left;
-  padding-left: 23px;
-
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  a {
+    width: 20px;
+    height: 20px;
+  }
 }
 

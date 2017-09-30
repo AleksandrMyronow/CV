@@ -4,39 +4,57 @@
 }
 
 .circle__first {
-  stroke: #dcdfd5;
+  stroke: $gray;
 }
 
 .circle__second {
-  stroke: #1bb696;
-  stroke-dasharray: .0010 282.6;
+  stroke: $second-color;
+  stroke-dasharray: .0010 816.4;
   transition: all 1s;
 }
 
 .item {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   border: 1px solid red;
+  margin-left: 35px;
 }
 
-.include {
-  position: absolute;
+.item:nth-child(1) {
+  margin-left: 93px;
 }
+
 
 .circle-html {
-  stroke-dasharray: 112.0 282.6;
+  stroke-dasharray: 112.0 816.4;
 }
 
 .circle-php {
-  stroke-dasharray: 112.0 282.6;
+  stroke-dasharray: 112.0 816.4;
 }
 
 .circle-js {
-  stroke-dasharray: 112.0 282.6;
+  stroke-dasharray: 112.0 816.4;
 }
 
 .circle-workflow {
-  stroke-dasharray: 112.0 282.6;
+  stroke-dasharray: 112.0 816.4;
+}
+
+.includeProcent, .include {
+    position: absolute;
+}
+
+.include {
+  margin-top: 150px;
+
+}
+
+.includeProcent {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+
 }

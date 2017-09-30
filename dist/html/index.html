@@ -9,44 +9,46 @@
 	</head>
 	<body>
 		<div class="wrapper">
+			<!--include ../sections/_mixins-->
 			<header>
 				<div class="userName"><span>ALEKSANDR MYRONOV</span></div>
 				<div class="userSpecialty"><span>JUNIOR FULL-STACK DEVELOPER</span></div>
 				<div class="header-navigation">
-								<nav class="nav">
-									<div class="container">
-										<ul class="nav__list">
-											<li class="nav__item"><a class="nav__link" href="#">about</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">skills</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">experience</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">education</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">contact</a></li>
-										</ul>
-									</div>
-								</nav>
+					<ul class="nav__list">
+						<li class="nav__item"><a class="nav__link">about</a></li>
+						<li class="nav__item"><a class="nav__link">skills</a></li>
+						<li class="nav__item"><a class="nav__link">experience</a></li>
+						<li class="nav__item"><a class="nav__link">education</a></li>
+						<li class="nav__item"><a class="nav__link">contact</a></li>
+					</ul>
+					<!--+nav('nav', ["about", "skills", "experience", "education", "contact"], 0)-->
 				</div>
 			</header>
 			<div class="about">
-				<div class="logo">ABOUT ME</div>
-				<hr class="gorizontalLine">
-				<div class="left-footer">
-					<div class="birthday">
-						<div class="left">Birthday</div>
-						<div class="right">05-09-1993</div>
-					</div>
-					<div class="phone">
-						<div class="left">Phone</div>
-						<div class="right">+38 (066) 257-87-55</div>
-					</div>
-					<div class="mail">
-						<div class="left">Mail</div>
-						<div class="right">a.myronow@gmail.com</div>
-					</div>
-					<div class="city">
-						<div class="left">City</div>
-						<div class="right">Kiev</div>
-					</div>
-					<div class="social"><a class="twitter"><?xml version="1.0" encoding="iso-8859-1"?>
+				<div class="squere">
+					<div class="title-bg"></div>
+					<p class="squere-text">ABOUT</p>
+					<hr class="gorizontalLine">
+				</div>
+				<div class="info">
+					<div class="personal-info">
+						<div class="birthday">
+							<div class="left">Birthday</div>
+							<div class="right">05-09-1993</div>
+						</div>
+						<div class="phone">
+							<div class="left">Phone</div>
+							<div class="right">+38 (066) 257-87-55</div>
+						</div>
+						<div class="mail">
+							<div class="left">Mail</div>
+							<div class="right">a.myronow@gmail.com</div>
+						</div>
+						<div class="city">
+							<div class="left">City</div>
+							<div class="right">Kiev</div>
+						</div>
+						<div class="social"><a class="twitter"><?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 291.319 291.319" style="enable-background:new 0 0 291.319 291.319;" xml:space="preserve">
@@ -116,9 +118,54 @@
 <g>
 </g>
 </svg>
-</a>
-						<!--a.git-->
-						<!--    include ../svg/github-logo.svg--><a class="skype"><?xml version="1.0" encoding="iso-8859-1"?>
+</a><a class="git"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 458.246 458.246" style="enable-background:new 0 0 458.246 458.246;" xml:space="preserve">
+<g>
+	<path style="fill:#F34A38;" d="M160.777,259.368h71.594c-12.567,35.53-46.603,61.004-86.45,60.71
+		c-48.349-0.357-88.327-39.035-90.204-87.349c-2.012-51.789,39.537-94.563,90.887-94.563c23.479,0,44.905,8.946,61.058,23.605
+		c3.826,3.473,9.65,3.495,13.413-0.047l26.296-24.749c4.112-3.871,4.127-10.408,0.027-14.292
+		c-25.617-24.269-59.981-39.396-97.876-40.136C68.696,80.969,0.567,147.238,0.004,228.078
+		c-0.568,81.447,65.285,147.649,146.6,147.649c78.199,0,142.081-61.229,146.36-138.358c0.114-0.967,0.189-33.648,0.189-33.648
+		H160.777c-5.426,0-9.824,4.398-9.824,9.824v35.999C150.953,254.97,155.352,259.368,160.777,259.368z"/>
+	<path style="fill:#F34A38;" d="M414.464,206.99v-35.173c0-4.755-3.854-8.609-8.609-8.609h-29.604c-4.755,0-8.609,3.854-8.609,8.609
+		v35.173h-35.173c-4.755,0-8.609,3.854-8.609,8.609v29.604c0,4.755,3.854,8.609,8.609,8.609h35.173v35.173
+		c0,4.755,3.854,8.609,8.609,8.609h29.604c4.755,0,8.609-3.854,8.609-8.609v-35.173h35.173c4.755,0,8.609-3.854,8.609-8.609v-29.604
+		c0-4.755-3.854-8.609-8.609-8.609L414.464,206.99L414.464,206.99z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</a><a class="skype"><?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400.932 400.932" style="enable-background:new 0 0 400.932 400.932;" xml:space="preserve">
@@ -135,43 +182,22 @@
 	c8.61,11.713,6.096,28.189-5.617,36.798c-11.662,8.572-28.034,6.119-36.677-5.452c-0.62-0.797-19.429-21.723-47.605-24.398
 	c-21.32-2.025-42.37,5.663-42.37,17.02C163.047,156.06,169.092,160.108,206.873,169.093z"/>
 </svg>
-</a>
+</a></div>
+					</div>
+					<div class="photo"><img src="../img/logo.jpeg"></div>
+					<div class="about-text">
+						<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
 					</div>
 				</div>
-				<div class="about-text">
-					<div class="photo"><img src="../img/logo.jpeg"></div>
-					<hr class="verticalLine">
-					<div class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+				<div class="squere">
+					<div class="title-bg"></div>
+					<p class="squere-text">ABOUT</p>
+					<hr class="gorizontalLine">
 				</div>
 			</div>
-			<div class="skills">
-				<div class="logo"></div>
-				<hr class="gorizontalLine">
-				<div class="d-inline-flex justify-content-center">
-					<ul class="wrap">
-						<li class="item d-flex justify-content-center"><svg class="circles" viewBox="0 0 110 110">
-    <circle r="45" cx="50%" cy="50%" class="circle__first"/>
-    <circle r="45" cx="50%" cy="50%" transform="rotate(-90 50 50)" class="circle__second circle-html"/>
-</svg><span class="include">HTML/CSS</span>
-						</li>
-						<li class="item d-flex justify-content-center"><svg class="circles" viewBox="0 0 110 110">
-    <circle r="45" cx="50%" cy="50%" class="circle__first"/>
-    <circle r="45" cx="50%" cy="50%" transform="rotate(-90 50 50)" class="circle__second circle-js"/>
-</svg><span class="include">PHP</span>
-						</li>
-						<li class="item d-flex justify-content-center"><svg class="circles" viewBox="0 0 110 110">
-    <circle r="45" cx="50%" cy="50%" class="circle__first"/>
-    <circle r="45" cx="50%" cy="50%" transform="rotate(-90 50 50)" class="circle__second circle-php"/>
-</svg><span class="include">JS</span>
-						</li>
-						<li class="item d-flex justify-content-center"><svg class="circles" viewBox="0 0 110 110">
-    <circle r="45" cx="50%" cy="50%" class="circle__first"/>
-    <circle r="45" cx="50%" cy="50%" transform="rotate(-90 50 50)" class="circle__second circle-workflow"/>
-</svg><span class="include">WORKFLOW</span>
-						</li>
-					</ul>
-				</div>
-			</div>
+			<!--include ../sections/skills-->
+			<!--include ../sections/experience-->
+			<!--include ../sections/education-->
 		</div>
 	</body>
 </html>

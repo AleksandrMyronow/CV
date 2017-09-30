@@ -1,35 +1,37 @@
 header {
-  width: 100%;
+  width: 80%;
   height: 260px;
   background-color: #f2f3f3;
-  display: block;
+  padding: 5% 10% 5% 10%;
+  font-family: Arial, sans-serif;
 }
 
 .userName {
-  padding-top: 30px;
-  font-size: 50px;
-  margin-bottom: 0;
+  font-size: 48px;
   color: $mainText;
-  margin-left: $main-margin-left;
 }
 
-.userSpecialty {
-  padding-top: 10px;
-  font-size: 20px;
+.userDescription {
+  font-size: 12px;
   color: $mainText;
-  margin-left: $main-margin-left;
 }
 
 .nav__list {
-  width: 75%;
   border-radius: 5px;
   background-color: $mainText;
-  margin-left: $main-margin-left;
+  padding: 5px 0;
 }
 
 .nav__item {
   display: inline-block;
   padding: 18px 28px;
+  margin-right: 5px;
+  //height: 80%;
+  border-right: 1px solid #fff;
+
+  &:last-child {
+    border-right: none;
+  }
 }
 
 .nav__link {

@@ -80,7 +80,7 @@ gulp.task('sprite', function () {
 //watch
 gulp.task('watch', () => {
     "use strict";
-    gulp.watch('src/pug/*.pug', ['pug']);
+    gulp.watch(path.pug.src, ['pug']);
     gulp.watch(path.sass.src, ['sass']);
 });
 

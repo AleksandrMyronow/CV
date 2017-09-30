@@ -3,15 +3,19 @@ $mainText: #2f4152;
 $mainColor: white;
 $second-color: rgb(54, 153, 219);
 $main-margin-left: 15%;
-$gray: #f2f3f3;
+$mainPadding: 5% 10%;
+$gray: #d2d4d8;
+
+body {
+  width: 100vw;
+}
 
 .wrapper {
   overflow: hidden;
   position: relative;
   min-height: 100%;
+  width: 100%;
 }
-
-
 
 //adjustment
 @import "layout/adjustment";
@@ -22,8 +26,8 @@ $gray: #f2f3f3;
 //styles
 @import "sections/header";
 @import "sections/about";
-@import "sections/skills";
-@import "sections/experience";
-@import "sections/education";
+//@import "sections/skills";
+//@import "sections/experience";
+//@import "sections/education";
 
 
