@@ -1,8 +1,9 @@
 .about {
   width: 80%;
   background-color: $mainColor;
-  height: 400px;
+  height: 180px;
   padding: $mainPadding;
+  font-family: Arial, sans-serif;
 }
 
 .squere {
@@ -35,12 +36,13 @@ hr.gorizontalLine {
   border: none;
   background-color: $second-color;
   display: inline-block;
-  position: relative;
+  position: absolute;
   border-radius: 10px;
   height: 4px;
   width: 80%;
-  left: 25%;
+  left: 31%;
   float: right;
+  margin-top: 3%;
 }
 
 .info {
@@ -48,21 +50,27 @@ hr.gorizontalLine {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 2%;
 }
 
 .personal-info {
-  width: 30%;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .photo {
-  width: 20%;
+  width: 18%;
   img{
     width: 100%;
+    border-right: 3px solid $second-color;
+    border-radius: 3px;
   }
 }
 
 .about-text {
-  width: 45%;
+  width: 47%;
 }
 
 .right {
@@ -73,6 +81,7 @@ hr.gorizontalLine {
 .left{
   font-weight:bold;
   display: inline-block;
+  font-size: medium;
 
 }
 
@@ -81,8 +90,8 @@ hr.gorizontalLine {
   flex-direction: row;
   justify-content: space-between;
   a {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
   }
 }
 

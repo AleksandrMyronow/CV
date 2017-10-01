@@ -1,6 +1,3 @@
-body {
-  width: 100vw; }
-
 .wrapper {
   overflow: hidden;
   position: relative;
@@ -15,7 +12,7 @@ html, body {
 
 header {
   width: 80%;
-  height: 260px;
+  height: 170px;
   background-color: #f2f3f3;
   padding: 5% 10% 5% 10%;
   font-family: Arial, sans-serif; }
@@ -50,8 +47,9 @@ header {
 .about {
   width: 80%;
   background-color: white;
-  height: 400px;
-  padding: 5% 10%; }
+  height: 180px;
+  padding: 4% 10%;
+  font-family: Arial, sans-serif; }
 
 .squere {
   position: relative;
@@ -79,12 +77,13 @@ hr.gorizontalLine {
   border: none;
   background-color: #3699db;
   display: inline-block;
-  position: relative;
+  position: absolute;
   border-radius: 10px;
   height: 4px;
   width: 80%;
-  left: 25%;
-  float: right; }
+  left: 31%;
+  float: right;
+  margin-top: 3%; }
 
 .info {
   display: -webkit-box;
@@ -94,18 +93,28 @@ hr.gorizontalLine {
   flex-direction: row;
   -webkit-box-pack: justify;
   justify-content: space-between;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 2%; }
 
 .personal-info {
-  width: 30%; }
+  width: 28%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
 
 .photo {
-  width: 20%; }
+  width: 18%; }
   .photo img {
-    width: 100%; }
+    width: 100%;
+    border-right: 3px solid #3699db;
+    border-radius: 3px; }
 
 .about-text {
-  width: 45%; }
+  width: 47%; }
 
 .right {
   float: right;
@@ -113,7 +122,8 @@ hr.gorizontalLine {
 
 .left {
   font-weight: bold;
-  display: inline-block; }
+  display: inline-block;
+  font-size: medium; }
 
 .social {
   display: -webkit-box;
@@ -124,5 +134,71 @@ hr.gorizontalLine {
   -webkit-box-pack: justify;
   justify-content: space-between; }
   .social a {
-    width: 20px;
-    height: 20px; }
+    width: 25px;
+    height: 25px; }
+
+.skills {
+  width: 80%;
+  background-color: white;
+  height: 250px;
+  padding: 4% 10%;
+  font-family: Arial, sans-serif; }
+
+.skills_list {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  text-decoration: none;
+  height: 200px; }
+
+.skills_item {
+  width: 20%;
+  text-decoration: none; }
+
+.circles {
+  fill: none;
+  stroke-width: 15; }
+
+.circle__first {
+  stroke: #d2d4d8; }
+
+.circle__second {
+  stroke: #3699db;
+  stroke-dasharray: .0010 816.4;
+  transition: all 1s; }
+
+.circle-html {
+  stroke-dasharray: 112.0 816.4; }
+
+.circle-php {
+  stroke-dasharray: 112.0 816.4; }
+
+.circle-js {
+  stroke-dasharray: 112.0 816.4; }
+
+.circle-workflow {
+  stroke-dasharray: 112.0 816.4; }
+
+.includeProcent, .includeText {
+  position: absolute;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding-left: 5%; }
+
+.includeProcent {
+  font-size: 30px;
+  margin-top: -100px; }
+
+.includeText {
+  font-size: 15px; }

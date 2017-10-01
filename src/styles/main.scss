@@ -3,12 +3,8 @@ $mainText: #2f4152;
 $mainColor: white;
 $second-color: rgb(54, 153, 219);
 $main-margin-left: 15%;
-$mainPadding: 5% 10%;
+$mainPadding: 4% 10%;
 $gray: #d2d4d8;
-
-body {
-  width: 100vw;
-}
 
 .wrapper {
   overflow: hidden;
@@ -26,8 +22,8 @@ body {
 //styles
 @import "sections/header";
 @import "sections/about";
-//@import "sections/skills";
-//@import "sections/experience";
-//@import "sections/education";
+@import "sections/skills";
+@import "sections/experience";
+@import "sections/education";
 
 
