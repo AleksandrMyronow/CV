@@ -2,8 +2,8 @@ header {
   width: 80%;
   height: 170px;
   background-color: #f2f3f3;
-  padding: 5% 10% 5% 10%;
-  font-family: Arial, sans-serif;
+  padding: $mainPadding;
+  font-family: $maint-font;
 }
 
 .userName {
@@ -24,9 +24,9 @@ header {
 
 .nav__item {
   display: inline-block;
-  padding: 18px 28px;
+  padding: 18px 40px;
   margin-right: 5px;
-  border-right: 1px solid #fff;
+  border-right: 2px solid #fff;
 
   &:last-child {
     border-right: none;
@@ -38,6 +38,7 @@ header {
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+  font-family: $second-font;
 }
 
 

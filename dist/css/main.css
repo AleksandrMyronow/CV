@@ -14,8 +14,8 @@ header {
   width: 80%;
   height: 170px;
   background-color: #f2f3f3;
-  padding: 5% 10% 5% 10%;
-  font-family: Arial, sans-serif; }
+  padding: 4% 10%;
+  font-family: Corbel, sans-serif; }
 
 .userName {
   font-size: 48px;
@@ -32,9 +32,9 @@ header {
 
 .nav__item {
   display: inline-block;
-  padding: 18px 28px;
+  padding: 18px 40px;
   margin-right: 5px;
-  border-right: 1px solid #fff; }
+  border-right: 2px solid #fff; }
   .nav__item:last-child {
     border-right: none; }
 
@@ -42,14 +42,15 @@ header {
   color: white;
   font-size: 15px;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: Calibri, sans-serif; }
 
 .about {
   width: 80%;
   background-color: white;
   height: 180px;
   padding: 4% 10%;
-  font-family: Arial, sans-serif; }
+  font-family: Calibri-light, sans-serif; }
 
 .squere {
   position: relative;
@@ -61,13 +62,14 @@ header {
   color: white;
   margin-left: 60px;
   position: relative;
-  bottom: 8px; }
+  bottom: 8px;
+  font-family: Corbel, sans-serif; }
 
 .title-bg {
   background-color: #2f4152;
   color: white;
   height: 20px;
-  width: 25%;
+  width: 24%;
   padding: 10px;
   position: absolute;
   -webkit-transform: skew(-30deg);
@@ -97,16 +99,19 @@ hr.gorizontalLine {
   padding-bottom: 2%; }
 
 .personal-info {
-  width: 28%;
+  width: 25%;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
   -webkit-box-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-family: Signika, sans-serif;
+  font-size: 14px; }
 
 .photo {
+  margin-left: 21px;
   width: 18%; }
   .photo img {
     width: 100%;
@@ -114,7 +119,7 @@ hr.gorizontalLine {
     border-radius: 3px; }
 
 .about-text {
-  width: 47%; }
+  width: 48%; }
 
 .right {
   float: right;
@@ -122,8 +127,7 @@ hr.gorizontalLine {
 
 .left {
   font-weight: bold;
-  display: inline-block;
-  font-size: medium; }
+  display: inline-block; }
 
 .social {
   display: -webkit-box;
@@ -207,7 +211,8 @@ hr.gorizontalLine {
   background-color: #2f4152;
   width: 80%;
   padding: 4% 10%;
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  color: white; }
 
 .title-bg_blue {
   border-radius: 30px;
@@ -217,12 +222,37 @@ hr.gorizontalLine {
   width: 25%;
   padding: 10px;
   position: absolute; }
+
+.circle-point {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute; }
+
+.new-point {
+  position: relative;
+  margin-top: 10px; }
+
+.point-about, .point-year {
+  display: inline-block;
+  margin-left: 5%; }
+
+.point-year {
+  background-color: rgba(54, 153, 219, 0.5);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5%; }
+
+.point-text {
+  margin-top: 7px; }
 
 .education {
   background-color: #2f4152;
   width: 80%;
-  padding: 4% 10%;
-  font-family: Arial, sans-serif; }
+  padding: 0 10% 10%;
+  font-family: Arial, sans-serif;
+  color: white; }
 
 .title-bg_blue {
   border-radius: 30px;
@@ -232,3 +262,27 @@ hr.gorizontalLine {
   width: 25%;
   padding: 10px;
   position: absolute; }
+
+.circle-point {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute; }
+
+.new-point {
+  position: relative;
+  margin-top: 10px; }
+
+.point-about, .point-year {
+  display: inline-block;
+  margin-left: 5%; }
+
+.point-year {
+  background-color: rgba(54, 153, 219, 0.5);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5%; }
+
+.point-text {
+  margin-top: 7px; }

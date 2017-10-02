@@ -1,8 +1,9 @@
 .education {
   background-color: $mainText;
   width: 80%;
-  padding: $mainPadding;
+  padding: 0 10% 10%;
   font-family: Arial, sans-serif;
+  color: $mainColor;
 }
 
 .title-bg_blue {
@@ -13,4 +14,33 @@
   width: 25%;
   padding: 10px;
   position: absolute;
+}
+
+.circle-point {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: $mainColor;
+  position: absolute;
+}
+
+.new-point {
+  position: relative;
+  margin-top: 10px;
+}
+
+.point-about, .point-year {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.point-year {
+  background-color: $second-color;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5%;
+}
+
+.point-text {
+  margin-top: 7px;
 }

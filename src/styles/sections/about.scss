@@ -3,7 +3,7 @@
   background-color: $mainColor;
   height: 180px;
   padding: $mainPadding;
-  font-family: Arial, sans-serif;
+  font-family: Calibri-light, sans-serif;
 }
 
 .squere {
@@ -18,13 +18,14 @@
   margin-left: 60px;
   position: relative;
   bottom: 8px;
+  font-family: $maint-font;
 }
 
 .title-bg {
   background-color: $mainText;
   color: $mainColor;
   height: 20px;
-  width: 25%;
+  width: 24%;
   padding: 10px;
   position: absolute;
   -webkit-transform: skew(-30deg);
@@ -54,13 +55,16 @@ hr.gorizontalLine {
 }
 
 .personal-info {
-  width: 28%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: Signika, sans-serif;
+  font-size: 14px;
 }
 
 .photo {
+  margin-left: 21px;
   width: 18%;
   img{
     width: 100%;
@@ -70,7 +74,7 @@ hr.gorizontalLine {
 }
 
 .about-text {
-  width: 47%;
+  width: 48%;
 }
 
 .right {
@@ -81,8 +85,6 @@ hr.gorizontalLine {
 .left{
   font-weight:bold;
   display: inline-block;
-  font-size: medium;
-
 }
 
 .social {

@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c29c441-59e7-40d9-ab3a-c4314ee7f756" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/svg/github-logo.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/html/index.html" afterPath="$PROJECT_DIR$/dist/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/font-awesome/package.json" afterPath="$PROJECT_DIR$/node_modules/font-awesome/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.html" afterPath="$PROJECT_DIR$/src/pug/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pug/index.pug" afterPath="$PROJECT_DIR$/src/pug/index.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/about.pug" afterPath="$PROJECT_DIR$/src/sections/about.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/education.pug" afterPath="$PROJECT_DIR$/src/sections/education.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sections/experience.pug" afterPath="$PROJECT_DIR$/src/sections/experience.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css.map" afterPath="$PROJECT_DIR$/src/styles/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/sections/about.scss" afterPath="$PROJECT_DIR$/src/styles/sections/about.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/sections/education.scss" afterPath="$PROJECT_DIR$/src/styles/sections/education.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/sections/experience.scss" afterPath="$PROJECT_DIR$/src/styles/sections/experience.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/sections/skills.scss" afterPath="$PROJECT_DIR$/src/styles/sections/skills.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/sections/header.scss" afterPath="$PROJECT_DIR$/src/styles/sections/header.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,81 +32,141 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about.pug" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sections/about.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="459">
+              <caret line="33" column="164" lean-forward="false" selection-start-line="33" selection-start-column="164" selection-end-line="33" selection-end-column="164" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experience.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sections/experience.pug">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pug/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
-              <folding />
+              <caret line="0" column="353" lean-forward="false" selection-start-line="0" selection-start-column="353" selection-end-line="0" selection-end-column="353" />
+              <folding>
+                <marker date="1506934803000" expanded="true" signature="30:13270" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="342:13263" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="342:13256" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="950:10011" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="1081:9892" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="1108:8957" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="1498:8951" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="1517:1553" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="7204:8945" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="7470:8940" ph="..." />
+                <marker date="1506934803000" expanded="false" signature="7510:7552" ph="..." />
+                <marker date="1506934803000" expanded="false" signature="7589:7602" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10031:11352" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10055:11346" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10079:10379" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10122:10294" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10403:10696" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10446:10616" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10720:11013" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="10763:10934" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="11037:11341" ph="..." />
+                <marker date="1506934803000" expanded="true" signature="11080:11256" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/styles/sections/education.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-314">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <marker date="1506932844000" expanded="true" signature="7535:9275" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="7800:9270" ph="..." />
+                <marker date="1506932844000" expanded="false" signature="7840:7882" ph="..." />
+                <marker date="1506932844000" expanded="false" signature="7919:7932" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="9382:9759" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="9795:9911" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="9945:11328" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="9974:11318" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10004:10310" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10047:10219" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10340:10639" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10383:10553" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10669:10968" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10712:10883" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="10998:11308" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11041:11217" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11356:12603" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11381:11507" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11537:12593" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11566:11710" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="11932:12085" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="12630:13474" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="12655:12780" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="12810:13464" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="12839:13039" ph="..." />
+                <marker date="1506932844000" expanded="true" signature="13165:13365" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="github.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/svg/github.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="education.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sections/education.pug">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experience.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/sections/experience.scss">
+      <file leaf-file-name="education.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/sections/education.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skills.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/sections/skills.scss">
+      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/font-awesome/css/font-awesome.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skills.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sections/skills.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/sections/header.scss">
+      <file leaf-file-name="linkedin.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/svg/linkedin.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/svg/facebook.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -110,18 +175,8 @@
       <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/sections/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="174">
+              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -150,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/scss/style.scss" />
         <option value="$PROJECT_DIR$/src/styles/main.css" />
         <option value="$PROJECT_DIR$/src/styles/layout/adjustment.scss" />
-        <option value="$PROJECT_DIR$/src/pug/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dist/css/main.css" />
         <option value="$PROJECT_DIR$/src/svg/google-plus.svg" />
@@ -164,20 +218,24 @@
         <option value="$PROJECT_DIR$/src/svg/php.svg" />
         <option value="$PROJECT_DIR$/src/svg/workflow.svg" />
         <option value="$PROJECT_DIR$/src/sections/_mixins.pug" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/sections/skills.pug" />
+        <option value="$PROJECT_DIR$/src/styles/sections/skills.scss" />
+        <option value="$PROJECT_DIR$/src/sections/experience.pug" />
+        <option value="$PROJECT_DIR$/src/sections/education.pug" />
+        <option value="$PROJECT_DIR$/src/styles/sections/experience.scss" />
+        <option value="$PROJECT_DIR$/src/svg/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/sections/header.pug" />
         <option value="$PROJECT_DIR$/dist/html/index.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/sections/about.pug" />
-        <option value="$PROJECT_DIR$/src/pug/index.pug" />
-        <option value="$PROJECT_DIR$/src/sections/skills.pug" />
-        <option value="$PROJECT_DIR$/src/styles/sections/about.scss" />
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
-        <option value="$PROJECT_DIR$/src/styles/sections/skills.scss" />
         <option value="$PROJECT_DIR$/src/styles/sections/header.scss" />
-        <option value="$PROJECT_DIR$/src/sections/experience.pug" />
-        <option value="$PROJECT_DIR$/src/styles/sections/experience.scss" />
-        <option value="$PROJECT_DIR$/src/sections/education.pug" />
+        <option value="$PROJECT_DIR$/src/styles/sections/about.scss" />
+        <option value="$PROJECT_DIR$/src/svg/github.svg" />
+        <option value="$PROJECT_DIR$/src/svg/linkedin.svg" />
+        <option value="$PROJECT_DIR$/src/pug/index.html" />
+        <option value="$PROJECT_DIR$/src/pug/index.pug" />
         <option value="$PROJECT_DIR$/src/styles/sections/education.scss" />
+        <option value="$PROJECT_DIR$/src/sections/about.pug" />
       </list>
     </option>
   </component>
@@ -253,31 +311,7 @@
             <path>
               <item name="cv" type="b2602c69:ProjectViewProjectNode" />
               <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pug" type="462c0819:PsiDirectoryNode" />
-              <item name="index.pug" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="cv" type="b2602c69:ProjectViewProjectNode" />
@@ -297,12 +331,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,15 +349,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pug" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/svg" />
       <recent name="$PROJECT_DIR$/dist/img" />
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/styles/sections" />
-      <recent name="$PROJECT_DIR$/dist/css" />
-      <recent name="$PROJECT_DIR$/dist" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pug" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,12 +388,12 @@
       <workItem from="1506446223248" duration="1382000" />
       <workItem from="1506453624153" duration="5791000" />
       <workItem from="1506584009575" duration="20957000" />
-      <workItem from="1506887613345" duration="4976000" />
+      <workItem from="1506887613345" duration="12677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73349000" />
+    <option name="totallyTimeSpent" value="81050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +414,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20170455" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20170455" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -427,21 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/_mixins.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="69" lean-forward="true" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/_mixins.html" />
     <entry file="file://$PROJECT_DIR$/src/pug/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -525,14 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg/facebook.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -574,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="358" lean-forward="false" selection-start-line="0" selection-start-column="358" selection-end-line="0" selection-end-column="358" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/_mixins.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -592,30 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="190" column="4" lean-forward="false" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -639,39 +613,7 @@
     <entry file="file://$PROJECT_DIR$/src/sections/skills.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/sections/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sections/about.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/sections/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -679,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/src/styles/sections/skills.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="33" />
+          <caret line="5" column="33" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="5" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -687,7 +629,7 @@
     <entry file="file://$PROJECT_DIR$/src/sections/experience.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="25" />
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -695,23 +637,169 @@
     <entry file="file://$PROJECT_DIR$/src/styles/sections/experience.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/sections/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/education.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/svg/linkedin.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/svg/facebook.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/svg/github.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="353" lean-forward="false" selection-start-line="0" selection-start-column="353" selection-end-line="0" selection-end-column="353" />
+          <folding>
+            <marker date="1506934803000" expanded="true" signature="30:13270" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="342:13263" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="342:13256" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="950:10011" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="1081:9892" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="1108:8957" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="1498:8951" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="1517:1553" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="7204:8945" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="7470:8940" ph="..." />
+            <marker date="1506934803000" expanded="false" signature="7510:7552" ph="..." />
+            <marker date="1506934803000" expanded="false" signature="7589:7602" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10031:11352" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10055:11346" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10079:10379" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10122:10294" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10403:10696" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10446:10616" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10720:11013" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="10763:10934" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="11037:11341" ph="..." />
+            <marker date="1506934803000" expanded="true" signature="11080:11256" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <marker date="1506932844000" expanded="true" signature="7535:9275" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="7800:9270" ph="..." />
+            <marker date="1506932844000" expanded="false" signature="7840:7882" ph="..." />
+            <marker date="1506932844000" expanded="false" signature="7919:7932" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="9382:9759" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="9795:9911" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="9945:11328" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="9974:11318" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10004:10310" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10047:10219" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10340:10639" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10383:10553" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10669:10968" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10712:10883" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="10998:11308" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11041:11217" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11356:12603" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11381:11507" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11537:12593" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11566:11710" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="11932:12085" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="12630:13474" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="12655:12780" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="12810:13464" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="12839:13039" ph="..." />
+            <marker date="1506932844000" expanded="true" signature="13165:13365" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pug/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/sections/education.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/sections/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="164" lean-forward="false" selection-start-line="33" selection-start-column="164" selection-end-line="33" selection-end-column="164" />
           <folding />
         </state>
       </provider>
