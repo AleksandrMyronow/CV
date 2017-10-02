@@ -22,9 +22,11 @@
     "gulp-sourcemaps": "^2.6.1",
     "gulp.spritesmith": "^6.5.1",
     "jquery": "^3.2.1",
+    "livereload": "^0.6.2",
     "popper.js": "^1.12.5"
   },
   "dependencies": {
-    "font-awesome-sass": "^4.7.0"
+    "font-awesome-sass": "^4.7.0",
+    "gulp-livereload": "^3.8.1"
   }
 }

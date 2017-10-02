@@ -64,17 +64,17 @@ hr.gorizontalLine {
 }
 
 .photo {
-  margin-left: 21px;
-  width: 18%;
+  width: 90%;
   img{
     width: 100%;
     border-right: 3px solid $second-color;
     border-radius: 3px;
+    margin-left: 10px;
   }
 }
 
 .about-text {
-  width: 48%;
+  width: 65%;
 }
 
 .right {

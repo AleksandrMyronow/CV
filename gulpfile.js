@@ -3,9 +3,9 @@ const gulp     = require('gulp');
 const pug      = require('gulp-pug');
 const sass     = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
-// const sourcemaps = require('gulp-source-maps');
 const autoprefixer = require('gulp-autoprefixer');
-const spritesmith = require('gulp.spritesmith');
+const livereload = require('gulp-livereload');
+
 
 
 //paths
@@ -22,35 +22,14 @@ const path = {
         entry : SRC_DIR + 'pug/index.pug',
         src   : SRC_DIR + 'sections/**/*.pug',
         dist  : DIST_DIR + 'html'
-    },
-    sprite : {
-        src        : SRC_DIR + 'img/icons/*.png',
-        distImg    : DIST_DIR + 'img',
-        imgLocation: './img/sprite.png',
-        distfile   : SRC_DIR + 'style/sprite'
     }
+
 };
 
 //tasks
-gulp.task('sprite', () => {
-    "use strict";
-    var spriteData = gulp.src(
-        path.sprite.src
-    ).pipe(spritesmith({
-        imgName: 'sprite.png',
-        cssName: 'sprite.scss',
-        cssFormat: 'css',
-        imgPath: path.sprite.imgLocation,
-        padding: 70
-    }));
-
-    spriteData.img.pipe(gulp.dest(path.sprite.distImg));
-    spriteData.img.pipe(gulp.dest(path.sprite.distFile));
-
-});
-
 gulp.task('pug', () => {
     "use strict";
+    livereload.listen();
     return gulp.src(path.pug.entry)
         .pipe(pug({
             pretty: '\t'
@@ -67,14 +46,6 @@ gulp.task('sass', function() {
             cascade: false
         }))
         .pipe(gulp.dest(path.sass.dist));
-});
-
-gulp.task('sprite', function () {
-    var spriteData = gulp.src('images/*.png').pipe(spritesmith({
-        imgName: 'sprite.png',
-        cssName: 'sprite.css'
-    }));
-    return spriteData.pipe(gulp.dest('path/to/output/'));
 });
 
 //watch

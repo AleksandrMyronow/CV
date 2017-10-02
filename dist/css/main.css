@@ -77,7 +77,7 @@ header {
 
 hr.gorizontalLine {
   border: none;
-  background-color: rgba(54, 153, 219, 0.5);
+  background-color: rgba(54, 153, 219, 0.8);
   display: inline-block;
   position: absolute;
   border-radius: 10px;
@@ -111,15 +111,15 @@ hr.gorizontalLine {
   font-size: 14px; }
 
 .photo {
-  margin-left: 21px;
-  width: 18%; }
+  width: 90%; }
   .photo img {
     width: 100%;
-    border-right: 3px solid rgba(54, 153, 219, 0.5);
-    border-radius: 3px; }
+    border-right: 3px solid rgba(54, 153, 219, 0.8);
+    border-radius: 3px;
+    margin-left: 10px; }
 
 .about-text {
-  width: 48%; }
+  width: 65%; }
 
 .right {
   float: right;
@@ -145,7 +145,7 @@ hr.gorizontalLine {
   width: 80%;
   background-color: white;
   height: 250px;
-  padding: 4% 10%;
+  padding: 18% 10% 3%;
   font-family: Arial, sans-serif; }
 
 .skills_list {
@@ -173,7 +173,7 @@ hr.gorizontalLine {
   stroke: #d2d4d8; }
 
 .circle__second {
-  stroke: rgba(54, 153, 219, 0.5);
+  stroke: rgba(54, 153, 219, 0.8);
   stroke-dasharray: .0010 816.4;
   transition: all 1s; }
 
@@ -216,7 +216,7 @@ hr.gorizontalLine {
 
 .title-bg_blue {
   border-radius: 30px;
-  background-color: rgba(54, 153, 219, 0.5);
+  background-color: rgba(54, 153, 219, 0.8);
   color: white;
   height: 20px;
   width: 25%;
@@ -239,7 +239,7 @@ hr.gorizontalLine {
   margin-left: 5%; }
 
 .point-year {
-  background-color: rgba(54, 153, 219, 0.5);
+  background-color: rgba(54, 153, 219, 0.8);
   border-radius: 5px;
   padding: 5px 10px;
   margin-left: 5%; }
@@ -256,7 +256,7 @@ hr.gorizontalLine {
 
 .title-bg_blue {
   border-radius: 30px;
-  background-color: rgba(54, 153, 219, 0.5);
+  background-color: rgba(54, 153, 219, 0.8);
   color: white;
   height: 20px;
   width: 25%;
@@ -279,7 +279,7 @@ hr.gorizontalLine {
   margin-left: 5%; }
 
 .point-year {
-  background-color: rgba(54, 153, 219, 0.5);
+  background-color: rgba(54, 153, 219, 0.8);
   border-radius: 5px;
   padding: 5px 10px;
   margin-left: 5%; }
