@@ -153,7 +153,7 @@ hr.gorizontalLine {
 
 .circles {
   fill: none;
-  stroke-width: 10; }
+  stroke-width: 15; }
 
 .circle__first {
   stroke: #d2d4d8; }
@@ -184,11 +184,12 @@ hr.gorizontalLine {
 
 .includeProcent {
   font-size: 30px;
-  margin-top: -10%; }
+  margin-top: -9%;
+  padding-left: 6%; }
 
 .includeText {
   font-size: 15px;
-  padding-left: 4%; }
+  padding-left: 5%; }
 
 .experience {
   background-color: #2f4152;
