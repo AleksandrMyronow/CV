@@ -62,7 +62,7 @@ header {
   color: white;
   margin-left: 60px;
   position: relative;
-  bottom: 8px;
+  bottom: 5px;
   font-family: Corbel, sans-serif; }
 
 .title-bg {
@@ -85,7 +85,7 @@ hr.gorizontalLine {
   width: 80%;
   left: 31%;
   float: right;
-  margin-top: 3%; }
+  margin-top: 19px; }
 
 .info {
   display: -webkit-box;
@@ -119,7 +119,9 @@ hr.gorizontalLine {
     margin-left: 10px; }
 
 .about-text {
-  width: 65%; }
+  width: 65%;
+  margin-top: 20px;
+  letter-spacing: 0.7px; }
 
 .right {
   float: right;
@@ -136,7 +138,8 @@ hr.gorizontalLine {
   -webkit-box-direction: normal;
   flex-direction: row;
   -webkit-box-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding-top: 8px; }
   .social a {
     width: 25px;
     height: 25px; }
@@ -158,16 +161,15 @@ hr.gorizontalLine {
   justify-content: space-between;
   width: 100%;
   padding: 0;
-  text-decoration: none;
+  list-style: none;
   height: 200px; }
 
 .skills_item {
-  width: 20%;
-  text-decoration: none; }
+  width: 20%; }
 
 .circles {
   fill: none;
-  stroke-width: 13; }
+  stroke-width: 10; }
 
 .circle__first {
   stroke: #d2d4d8; }
@@ -202,10 +204,11 @@ hr.gorizontalLine {
 
 .includeProcent {
   font-size: 30px;
-  margin-top: -100px; }
+  margin-top: -10%; }
 
 .includeText {
-  font-size: 15px; }
+  font-size: 15px;
+  padding-left: 4%; }
 
 .experience {
   background-color: #2f4152;
@@ -213,36 +216,6 @@ hr.gorizontalLine {
   padding: 4% 10%;
   font-family: Arial, sans-serif;
   color: white; }
-
-.title-bg_blue {
-  border-radius: 30px;
-  background-color: rgba(54, 153, 219, 0.8);
-  color: white;
-  height: 20px;
-  width: 25%;
-  padding: 10px;
-  position: absolute; }
-
-.circle-point {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  position: absolute; }
-
-.new-point {
-  position: relative;
-  margin-top: 10px; }
-
-.point-about, .point-year {
-  display: inline-block;
-  margin-left: 5%; }
-
-.point-year {
-  background-color: rgba(54, 153, 219, 0.8);
-  border-radius: 5px;
-  padding: 5px 10px;
-  margin-left: 5%; }
 
 .point-text {
   margin-top: 7px; }
@@ -265,10 +238,11 @@ hr.gorizontalLine {
 
 .circle-point {
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-color: white;
-  position: absolute; }
+  position: absolute;
+  margin-top: 7px; }
 
 .new-point {
   position: relative;

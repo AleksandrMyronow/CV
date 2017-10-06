@@ -12,18 +12,17 @@
   justify-content: space-between;
   width: 100%;
   padding: 0;
-  text-decoration: none;
+  list-style: none;
   height: 200px;
 }
 
 .skills_item {
   width: 20%;
-  text-decoration: none;
 }
 
 .circles {
   fill: none;
-  stroke-width: 13;
+  stroke-width: 10;
 }
 
 .circle__first {
@@ -62,10 +61,11 @@
 
 .includeProcent {
   font-size: 30px;
-  margin-top: -100px;
+  margin-top: -10%;
 }
 
 .includeText {
   font-size: 15px;
+  padding-left: 4%;
 
 }

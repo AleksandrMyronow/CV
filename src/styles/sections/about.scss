@@ -17,7 +17,7 @@
   color: white;
   margin-left: 60px;
   position: relative;
-  bottom: 8px;
+  bottom: 5px;
   font-family: $maint-font;
 }
 
@@ -43,7 +43,7 @@ hr.gorizontalLine {
   width: 80%;
   left: 31%;
   float: right;
-  margin-top: 3%;
+  margin-top: 19px;
 }
 
 .info {
@@ -75,6 +75,8 @@ hr.gorizontalLine {
 
 .about-text {
   width: 65%;
+  margin-top: 20px;
+  letter-spacing: 0.7px;
 }
 
 .right {
@@ -91,6 +93,7 @@ hr.gorizontalLine {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 8px;
   a {
     width: 25px;
     height: 25px;
